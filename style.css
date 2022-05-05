@@ -1,0 +1,375 @@
+body {
+    margin:0;
+    background-image: linear-gradient(#16223D, #385186);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    
+}
+
+/*---------- Navbar styling ----------*/
+
+.navbar {
+    width: 100%;
+    height: 79px;
+    background-color:#262527;
+    border-bottom: 5px solid black;
+    
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+  }
+  
+li {
+    float: left;
+    
+  }
+  
+li a {
+    
+    display: block;
+    color: gold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    
+    
+    
+  }
+li a:hover {
+    color:white;
+    
+}
+
+/*---------- Om Mig styling ----------*/
+.container {
+    width: 100%;
+    height: 550px;
+}
+.left-column img {
+    width: 269px;
+    height: 400px;
+    margin: 50px;
+    padding: 10px;
+    border-radius: 20px;
+    
+}
+
+.right-column {
+    float: right; 
+    width: 65%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;  
+    color: white; 
+}
+.right-column h1 {
+    margin: 50px;
+    padding: 10px;
+    
+}
+.right-column p {
+    margin-left: 50px;
+    padding: 10px;
+    margin-top: -40px;
+    text-align: left;
+    font-size: 20px;
+}
+.CV-btn {
+    margin: 20px;
+    padding: 10px;
+    float: right;
+    width: 150px;
+    height: 45px;
+    color: gold;
+    border-radius: 5px;
+    border: #262527,solid;
+    background-color:#262527;
+    text-align: center;
+}
+.CV-btn:hover {
+    color:white;
+    text-decoration: none;
+}
+
+/*---------- Web Udvikling styling ----------*/
+.development {
+    width: 100%;
+    height: 700px;
+    background-color: aliceblue;
+}
+
+.development h4 {
+    margin: 50px;
+    text-align: center;
+}
+.row {
+    width: 100%;
+    margin-top: 65px;
+    display: flexbox;
+    justify-content: center;
+}
+h2 {
+    text-align: center;
+    margin: 10px;
+    padding: 30px;
+    
+
+}
+.row img {
+    display: block;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 25px;
+    padding: 10px;
+    
+  }
+.row a {
+    text-decoration: none;
+    color: #16223D;
+}
+.row a:hover {
+    color: #16223D;
+}
+
+/*---------- Multimediedesign page ----------*/
+.multi {
+    width: 100%;
+    height: 700px;
+    color: white;
+    background-image: #385186;
+}
+.multi a {
+    color: white;
+}
+.multi a:hover {
+    color: white;
+}
+.multi h4 {
+    margin: 10px;
+    text-align: center;
+
+}
+
+/*--------------- Footer - contact ------------------*/
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #111;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    color: gold;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #262527;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: #cacdd2;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+
+.socials a{
+    text-decoration: none;
+    color: gold;
+    border: 1.1px solid gold;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.socials a i{
+    font-size: 1.1rem;
+    width: 20px;
+    transition: color .4s ease;
+}
+
+.socials a:hover i{
+    color:lightskyblue;
+}
+
+/*---------- Web developer page ----------*/
+.container-back {
+    width: 100%;
+    height: 500px;
+}
+#backend2 h1 {
+    color: gold;
+}
+
+#backend2 {
+    color:aliceblue;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.left-back h2 {
+    margin: 10px;
+    margin-bottom: -5.2%;
+    margin-left: 3%;
+
+}
+
+.left-back img{
+    float: left;
+    margin: 10px;
+    padding: 10px;
+}
+.left-back p {
+    margin: 15px;
+    padding: 15px;
+    margin-top: 5%;
+    columns: 2;
+    text-align: left;
+}
+.pdf-btn {
+    margin: 25px;
+    padding: 10px;
+    width: 150px;
+    height: 45px;
+    float: left;
+    color: gold;
+    border-radius: 5px;
+    border: #262527,solid;
+    background-color:#262527;
+}
+.pdf-btn:hover {
+    text-decoration: underline;
+    color:gold;
+}
+/*-------------------------------------------*/
+#sql {
+    background-color: aliceblue;
+    width: 100%;
+    height:500px;
+}
+#sql h2 {
+    text-align: left;
+    margin: 15px;
+    margin-bottom: -5%;
+}
+
+.right-back img {
+    margin: 2%;
+    float: right;
+    margin-top: 5%;
+    
+}
+
+.right-back p {
+    margin: 25px;
+    margin-left: 3%;
+    margin-top: 5%;
+    columns: 2;
+    text-align: left;
+}
+
+#right-btn {
+    margin-left: 3%;
+}
+/*-----------------------------------*/
+#frontend2 {
+    width: 100%;
+    height: 600px;
+    background-color: aliceblue;
+}
+#frontend2 h1 {
+    text-align: center;
+    color:#16223D;  
+    margin: 15px;
+    padding: 10px;
+}
+.right-front h2 {
+    text-align: left;
+    margin-bottom: -1%;
+}
+.right-front img {
+    float: right;
+    margin: 20px;
+}
+.right-front p {
+    margin: 20px;
+    padding: 5px;
+    margin-left: 2%;
+    columns: 2;
+}
+
+#frontend1 {
+    color: aliceblue;
+}
+#frontendcont {
+    width: 100%;
+    height: 500px;
+    background-color: aliceblue;
+}
+
+/*----------------------------------*/
+#userex h2{
+    margin-left: 6%;
+}
+
+
+/*---------- Multimediedesign page ----------*/
+.left-back2 img {
+    float: left;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.left-back2 h2 {
+     margin: 10px;
+    margin-bottom: -5.2%;
+    margin-left: 10%;
+}
+.left-back2 p {
+    margin: 15px;
+    padding: 15px;
+    margin-top: 5%;
+    columns: 2;
+    text-align: left;
+
+}
+.container-mul {
+    width: 100%;
+    height: 500px;
+}
+#multi h1 {
+    color: gold;
+}
+
+#multi {
+    color:aliceblue;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
